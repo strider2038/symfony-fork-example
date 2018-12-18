@@ -1,8 +1,12 @@
 {
     "type": "project",
     "license": "proprietary",
-    "repositories": [
-    ],
+    "repositories": {
+        "symfony": {
+            "type": "git",
+            "url": "https://github.com/nicolas-grekas/symfony.git"
+        }
+    },
     "require": {
         "php": "7.2.*",
         "ext-iconv": "*",
@@ -25,6 +29,7 @@
         "symfony/lts": "^4@dev",
         "symfony/monolog-bundle": "3.*",
         "symfony/proxy-manager-bridge": "4.*",
+        "symfony/symfony": "dev-cache-fix",
         "symfony/yaml": "4.*"
     },
     "require-dev": {
