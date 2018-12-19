@@ -23,18 +23,12 @@
         "ramsey/uuid": "3.*",
         "sensio/framework-extra-bundle": "5.*",
         "symfony-bundles/redis-bundle": "2.*",
-        "symfony/console": "4.*",
-        "symfony/flex": "1.*",
-        "symfony/framework-bundle": "4.*",
-        "symfony/lts": "^4@dev",
-        "symfony/monolog-bundle": "3.*",
-        "symfony/proxy-manager-bridge": "4.*",
-        "symfony/symfony": "dev-cache-fix",
-        "symfony/yaml": "4.*"
+        "symfony/symfony": "dev-cache-fix as 4.2.1",
+        "symfony/monolog-bundle": "3.*"
     },
     "require-dev": {
         "behat/behat": "3.*",
-        "behat/mink": "1.*",
+        "behat/mink": "dev-master",
         "behat/mink-browserkit-driver": "1.*",
         "behat/mink-extension": "2.*",
         "behat/symfony2-extension": "2.*",
@@ -46,8 +40,6 @@
         "phpunit/phpunit": "7.*",
         "rdx/behat-variables": "1.*",
         "roave/security-advisories": "dev-master",
-        "symfony/debug": "4.*",
-        "symfony/web-profiler-bundle": "4.*",
         "symplify/easy-coding-standard": "^4.5",
         "theofidry/alice-data-fixtures": "1.*"
     },
@@ -68,10 +60,6 @@
         }
     },
     "replace": {
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
     },
     "scripts": {
         "auto-scripts": {
@@ -87,7 +75,6 @@
         ]
     },
     "conflict": {
-        "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {
